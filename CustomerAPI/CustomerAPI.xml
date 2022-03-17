@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CustomerAPI</name>
+    </assembly>
+    <members>
+        <member name="T:CustomerAPI.Controllers.CustomerController">
+            <summary>
+             To perform customer operation
+            </summary>
+        </member>
+        <member name="M:CustomerAPI.Controllers.CustomerController.#ctor(CustomerServices.ICommonService,CustomerServices.ICustomerService,Microsoft.Extensions.Options.IOptions{CustomerModel.APIConfig})">
+            <summary>
+            Inject service dependancy through constructor 
+            </summary>
+            <param name="commonService"></param>
+            <param name="customerService"></param>
+            <param name="apiConfig"></param>
+        </member>
+        <member name="M:CustomerAPI.Controllers.CustomerController.GetCustomers(System.Int32)">
+            <summary>
+             This method to get All customers’ first names (comma separated) who are of age provided.
+            </summary>
+            <param name="age">default age is 56 but user can change</param>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerAPI.Controllers.CustomerController.GetCustomerswithPhoneNumber">
+            <summary>
+            This method to get All customer’s IDs and associated phone numbers.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CustomerAPI.Controllers.CustomerController.GetPhoneNumbersPerState">
+            <summary>
+            This method to get The number of valid phone numbers per state, displayed in ascending alphabetical order
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
