@@ -1,6 +1,7 @@
-#Technical Assignment
 
-#Problem statement 
+# Technical Assignment
+
+# Problem statement 
 Please write an application that outputs:
 • All customers’ first names (comma separated) who are 56.
 • All customer’s IDs and associated phone numbers. Refer to the phone number rules on
@@ -12,7 +13,7 @@ order. E.g.
 ACT: 5
 NSW: 10
 
-#setting up project environment
+# setting up project environment
 
 Technical Assignment using .Net CORE 5.0 using c#
 # Requirements
